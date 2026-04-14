@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home" : "home",
+    "work" : "works",
+    "about" : "about-me",
+    "contacts" : "contacts"
+  },
+  "home": {
+    "title": "Home",
+    "description": "Welcome to our platform"
+  }
+
+}

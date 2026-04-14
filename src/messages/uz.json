@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "home" : "bosh sahifa",
+    "work" : "ishlarim",
+    "about" : "men haqimda",
+    "contacts" : "kontaktlar"
+  },
+  "home": {
+    "title": "Bosh sahifa",
+    "description": "Bizning platformaga xush kelibsiz"
+  },
+  "auth": {
+    "login_title": "Tizimga kirish",
+    "email": "Email",
+    "password": "Parol"
+  }
+}
