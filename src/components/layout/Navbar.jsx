@@ -4,9 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 import logo from "../../../public/umar.svg";
 import { RxTextAlignRight } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
-import { FaGithub } from "react-icons/fa6";
-import { IoLogoFigma } from "react-icons/io5";
-import { BsTelegram } from "react-icons/bs";
+import Socialbar from "../ui/SocialBar";
 
 
 
@@ -25,15 +23,8 @@ function Navbar() {
     `text-base transition-colors ${isActive ? "text-white" : "text-[#ABB2BF]"}`;
 
   return (
-    <header className="container py-6 px-5 md:px-0 md:py-8">
-      <div className="flex fixed top-0 left-4 items-center gap-4 flex-col">
-         <div className="h-48 w-[0.3px] bg-[#ABB2BF]"></div>
-         <div className="flex flex-col gap-4">
-            <a className="text-[#ABB2BF]" href="/"><FaGithub  size={32}/></a>
-             <a className="text-[#ABB2BF]" href="/"><BsTelegram size={32}/></a>
-              <a className="text-[#ABB2BF]" href="/"><IoLogoFigma size={32} /></a>
-         </div>
-      </div>
+    <header className="container py-6 px-5 md:py-8">
+      <Socialbar/>
       <nav className="flex items-center justify-between">
         <Link className="flex items-center gap-2" to="/">
           <img className="h-6" src={logo} alt="logo icons" />
