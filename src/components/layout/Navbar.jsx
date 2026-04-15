@@ -101,11 +101,11 @@ function Navbar() {
               </button>
             </div>
 
-            <ul className="flex flex-col gap-5">
+            <ul className="flex justify-center py-[30%] items-center flex-col gap-8">
               <li className="animate-[fadeUp_.4s_ease-out]">
                 <NavLink
                   to="/"
-                  className="text-xl"
+                  className="text-3xl"
                   onClick={() => setIsOpen(false)}
                 >
                   <span className="text-[#C778DD]">#</span>
@@ -116,7 +116,7 @@ function Navbar() {
               <li className="animate-[fadeUp_.5s_ease-out]">
                 <NavLink
                   to="/works"
-                  className="text-xl"
+                  className="text-3xl"
                   onClick={() => setIsOpen(false)}
                 >
                   <span className="text-[#C778DD]">#</span>
@@ -127,7 +127,7 @@ function Navbar() {
               <li className="animate-[fadeUp_.6s_ease-out]">
                 <NavLink
                   to="/about"
-                  className="text-xl"
+                  className="text-3xl"
                   onClick={() => setIsOpen(false)}
                 >
                   <span className="text-[#C778DD]">#</span>
@@ -138,7 +138,7 @@ function Navbar() {
               <li className="animate-[fadeUp_.7s_ease-out]">
                 <NavLink
                   to="/contact"
-                  className="text-xl"
+                  className="text-3xl"
                   onClick={() => setIsOpen(false)}
                 >
                   <span className="text-[#C778DD]">#</span>

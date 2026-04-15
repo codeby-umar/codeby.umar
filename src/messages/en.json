@@ -5,9 +5,16 @@
     "about" : "about-me",
     "contacts" : "contacts"
   },
+   "footer" : {
+      "description" : "Web designer and front-end developer",
+      "media" : "Media",
+      "umar" : "© Copyright 2026. Made by codeby.umar"
+   },
   "home": {
-    "title": "Home",
-    "description": "Welcome to our platform"
+    "title": "Muhammad Umar is a web designer and front-end developer",
+    "description": "He crafts responsive websites where technologies meet creativity",
+    "button" : "Contact me !!",
+    "img" : "Currently working on Portfolio"
   }
 
 }

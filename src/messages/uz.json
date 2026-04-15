@@ -5,13 +5,16 @@
     "about" : "men haqimda",
     "contacts" : "kontaktlar"
   },
-  "home": {
-    "title": "Bosh sahifa",
-    "description": "Bizning platformaga xush kelibsiz"
+   "home": {
+    "title": "Muhammad Umar veb-dizayner va front-end dasturchisi",
+    "description": "U texnologiyalar ijodkorlik bilan uchrashadigan sezgir veb-saytlarni yaratadi",
+    "button" : "Men bilan bog'laning!!",
+    "img" : "Hozirda Portfolio ustida ishlamoqda"
   },
-  "auth": {
-    "login_title": "Tizimga kirish",
-    "email": "Email",
-    "password": "Parol"
-  }
+  "footer" : {
+      "description" : "Veb-dizayner va front-end dasturchisi",
+      "media" : "Ijtimoiy tarmoqlar",
+      "umar" : "© Mualliflik huquqi 2026. Codeby.umar tomonidan yaratilgan"
+   }
+ 
 }
