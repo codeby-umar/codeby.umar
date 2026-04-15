@@ -4,7 +4,7 @@ import HeroSection from "../components/others/HeroSection";
 function Home() {
   const {t} = useTranslation();
   return (
-    <div className="h-screen">
+    <div className="h-full">
        <HeroSection/>
     </div>
   )

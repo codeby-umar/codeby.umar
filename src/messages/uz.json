@@ -6,7 +6,10 @@
     "contacts" : "kontaktlar"
   },
    "home": {
-    "title": "Muhammad Umar veb-dizayner va front-end dasturchisi",
+    "title": "Muhammad Umar   ",
+    "log" : "veb-dizayner",
+    "and" : "va",
+    "salom" : "front-end dasturchisi",
     "description": "U texnologiyalar ijodkorlik bilan uchrashadigan sezgir veb-saytlarni yaratadi",
     "button" : "Men bilan bog'laning!!",
     "img" : "Hozirda Portfolio ustida ishlamoqda"

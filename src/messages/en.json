@@ -11,7 +11,10 @@
       "umar" : "© Copyright 2026. Made by codeby.umar"
    },
   "home": {
-    "title": "Muhammad Umar is a web designer and front-end developer",
+    "title": "Muhammad Umar is a  ",
+    "log" : "web designer",
+    "and" : "and",
+    "salom" : "front-end developer",
     "description": "He crafts responsive websites where technologies meet creativity",
     "button" : "Contact me !!",
     "img" : "Currently working on Portfolio"
