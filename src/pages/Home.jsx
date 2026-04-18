@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next"
 import HeroSection from "../components/others/HeroSection";
 import Smartalk from "../components/others/Smartalk";
 import Project from "../components/others/Project";
+import Skils from "../components/others/Skils";
 
 function Home() {
   const {t} = useTranslation();
@@ -10,6 +11,7 @@ function Home() {
        <HeroSection/>
        <Smartalk/>
        <Project/>
+       <Skils/>
     </div>
   )
 }

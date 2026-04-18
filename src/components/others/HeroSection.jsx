@@ -45,9 +45,9 @@ function HeroSection() {
               className="absolute right-2 bottom-4 z-50 w-17.5 sm:right-4 sm:bottom-6 sm:w-22.5 md:top-55 md:right-6 md:bottom-auto md:w-auto"
             />
           </div>
-          <div className="flex items-center gap-3 border border-[#ABB2BF] p-2">
+          <div className="flex items-center gap-3 border border-[#ABB2BF] p-1 md:p-2">
             <div className="h-4 w-4 bg-[#C778DD]"></div>
-            <p className="text-[#ABB2BF] text-base">
+            <p className="text-[#ABB2BF] text-sm md:text-base">
               {t("home.current")} <span className="font-semibold text-white"> {t("home.port")}</span>
             </p>
           </div>

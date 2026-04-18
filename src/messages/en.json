@@ -21,6 +21,15 @@
     "description": "He crafts responsive websites where technologies meet creativity",
     "button" : "Contact me !!",
     "img" : "Currently working on Portfolio"
+  },
+  "projects" : {
+    "name" : "projects",
+    "view" : "View all ~~>",
+    "live" : "Live <~>",
+    "catch" : "Cached >="
+  },
+  "skills" : {
+    "name" : "skills"
   }
 
 }

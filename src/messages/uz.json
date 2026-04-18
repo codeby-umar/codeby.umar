@@ -21,5 +21,14 @@
     "description": "Veb-dizayner va front-end dasturchisi",
     "media": "Ijtimoiy tarmoqlar",
     "umar": "© Mualliflik huquqi 2026. Codeby.umar tomonidan yaratilgan"
+  },
+  "projects" : {
+    "name" : "loyihalarim",
+    "view" : "Hammasini ko'rish ~~>",
+    "live" : "Ko'rish <~>",
+    "catch" : "Keshlangan >="
+  },
+  "skills" : {
+    "name" : "ko'nikmalarim"
   }
 }

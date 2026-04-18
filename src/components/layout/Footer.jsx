@@ -48,7 +48,7 @@ function Footer() {
             <div className="flex flex-wrap items-center justify-center gap-4 md:justify-end">
               <a
                 className={socialClass}
-                href="https://github.com/"
+                href="https://github.com/codeby-umar"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
@@ -72,7 +72,7 @@ function Footer() {
 
               <a
                 className={socialClass}
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/muhammad-umar-undefined-a91313403/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
