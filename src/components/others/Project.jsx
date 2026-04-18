@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import img from "../../assets/images/prodects.svg";
 import img1 from "../../assets/images/prodects1.svg";
 import img2 from "../../assets/images/prodects2.svg";
-
+import some from "../../assets/icons/some.svg";
 function Project() {
   const prodects = [
     {
@@ -24,7 +24,7 @@ function Project() {
     {
       id: 3,
       name: "Kahoot Answers Viewer",
-      description: "Minecraft servers hosting ",
+      description: "Get answers to your kahoot quiz ",
       skils: ["Html ", "Css ", "Python ", "Flask"],
       img: img2,
     },
@@ -32,7 +32,8 @@ function Project() {
 
   const { t } = useTranslation();
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className=" h-full relative overflow-x-hidden py-5 md:py-0 md:h-screen flex items-center justify-center">
+      <img className="absolute -left-23 top-1/4 hidden  translate-x-1/2 md:block" src={some} alt="" />
       <div className="container px-8">
         <div className="flex items-center mb-12 justify-between gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-4 w-full">
@@ -49,7 +50,7 @@ function Project() {
           </Link>
         </div>
 
-        <div className="grid w-full md:px-0 grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid w-full md:px-0 grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 items-start">
           {prodects.map((item) => (
             <div
               key={item.id}
@@ -62,12 +63,12 @@ function Project() {
               />
 
               <div className="p-3 border-b border-[#ABB2BF]">
-                <p className="text-[#ABB2BF] text-sm sm:text-base md:text-lg ">
+                <p className="text-[#ABB2BF] text-sm sm:text-base md:text-lg">
                   {item.skils}
                 </p>
               </div>
 
-              <div className="p-4 flex-1">
+              <div className="p-4">
                 <h1 className="text-xl sm:text-2xl mb-3">{item.name}</h1>
                 <p className="text-[#ABB2BF] text-sm sm:text-base leading-6">
                   {item.description}
@@ -86,6 +87,7 @@ function Project() {
           ))}
         </div>
       </div>
+            <div className="absolute right-8 top-1/2 hidden h-50 w-20 translate-x-1/2 border border-[#ABB2BF] md:block"></div>
     </div>
   );
 }
