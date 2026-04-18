@@ -27,23 +27,30 @@ function HeroSection() {
             </button>
           </div>
         </div>
-
-        <div className="relative flex justify-center w-full md:w-auto">
-          <img
-            src={images}
-            alt=""
-            className="relative z-10 w-65 sm:w-[320px] md:w-95 lg:w-auto"
-          />
-          <img
-            src={Logo}
-            alt=""
-            className="absolute top-10 left-2 z-0 w-17.5 sm:top-14 sm:left-4 sm:w-22.5 md:top-20 md:left-0 md:w-auto"
-          />
-          <img
-            src={Dots}
-            alt=""
-            className="absolute right-2 bottom-4 z-50 w-17.5 sm:right-4 sm:bottom-6 sm:w-22.5 md:top-55 md:right-6 md:bottom-auto md:w-auto"
-          />
+        <div>
+          <div className="relative flex justify-center w-full md:w-auto">
+            <img
+              src={images}
+              alt=""
+              className="relative z-10 w-65 sm:w-[320px] md:w-95 lg:w-auto"
+            />
+            <img
+              src={Logo}
+              alt=""
+              className="absolute top-10 left-2 z-0 w-17.5 sm:top-14 sm:left-4 sm:w-22.5 md:top-20 md:left-0 md:w-auto"
+            />
+            <img
+              src={Dots}
+              alt=""
+              className="absolute right-2 bottom-4 z-50 w-17.5 sm:right-4 sm:bottom-6 sm:w-22.5 md:top-55 md:right-6 md:bottom-auto md:w-auto"
+            />
+          </div>
+          <div className="flex items-center gap-3 border border-[#ABB2BF] p-2">
+            <div className="h-4 w-4 bg-[#C778DD]"></div>
+            <p className="text-[#ABB2BF] text-base">
+              {t("home.current")} <span className="font-semibold text-white"> {t("home.port")}</span>
+            </p>
+          </div>
         </div>
       </div>
     </section>
