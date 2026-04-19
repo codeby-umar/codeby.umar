@@ -36,7 +36,8 @@
     "umar" : "Hello, I’m Muhammad Umar!",
     "dec1" : "I’m a self-taught full-stack developer who builds modern, fast, and user-friendly web applications from scratch and turns them into fully functional digital products.",
     "dec2" : "By combining both frontend and backend technologies, I transform ideas into real-world solutions. I’ve helped various clients establish and grow their online presence.",
-    "dec3" :  "I’m always learning new technologies and constantly improving my skills to deliver high-quality, scalable, and efficient solutions."
+    "dec3" :  "I’m always learning new technologies and constantly improving my skills to deliver high-quality, scalable, and efficient solutions.",
+    "readMore": "Read more"
   }
 
 }
