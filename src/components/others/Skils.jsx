@@ -37,23 +37,20 @@ function Skils() {
   return (
     <div className="min-h-screen container flex items-center justify-center px-4 sm:px-6 md:px-8 lg:px-8 mx-auto">
       <div>
-        <div className="flex items-center mb-8 sm:mb-12 gap-3">
-          <div className="flex items-center gap-4 w-full">
-            <h1 className="text-2xl sm:text-[32px] whitespace-nowrap">
-              <span className="text-[#C778DD]">#</span>
-              {t("skills.name")}
-            </h1>
-
-            <div className="hidden md:block flex-1 h-px bg-[#C778DD] max-w-80 lg:max-w-130"></div>
-          </div>
-        </div>
+        <div className="mb-8 flex items-center gap-4">
+        <h2 className="whitespace-nowrap text-[24px] md:text-[32px]  text-white">
+          <span className="text-[#C778DD]">#</span>
+          {t("skills.name")}
+        </h2>
+        <div className="h-px w-full max-w-45 md:max-w-120 bg-[#C778DD]" />
+      </div>
 
         <div className="flex flex-col lg:flex-row items-start justify-between ">
           <div className="w-full lg:w-[35%] flex justify-center lg:justify-start">
             <img
               src={imges}
               alt="text"
-              className="h-auto object-contain max-w-55 sm:max-w-65 md:max-w-75 lg:max-w-full"
+              className="h-auto hidden md:block object-contain max-w-55 sm:max-w-65 md:max-w-75 lg:max-w-full"
             />
           </div>
 

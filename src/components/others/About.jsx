@@ -16,7 +16,7 @@ function About() {
         <div className="h-px w-full max-w-45 md:max-w-120 bg-[#C778DD]" />
       </div>
 
-      <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-12">
+      <div className="flex items-center gap-5 justify-between">
         <div className="max-w-130">
           <h3 className="mb-6 text-base md:text-lg font-medium text-[#FFFFFF]">
             {t("about.umar")}
@@ -34,7 +34,7 @@ function About() {
           </button>
         </div>
 
-        <div className="flex justify-center lg:justify-end">
+        <div className="hidden md:block">
          
             <img
               src={clothes}
