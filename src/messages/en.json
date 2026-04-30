@@ -38,6 +38,9 @@
     "dec2" : "By combining both frontend and backend technologies, I transform ideas into real-world solutions. I’ve helped various clients establish and grow their online presence.",
     "dec3" :  "I’m always learning new technologies and constantly improving my skills to deliver high-quality, scalable, and efficient solutions.",
     "readMore": "Read more"
+  },
+  "contacts" : {
+    "name" : "contacts"
   }
 
 }

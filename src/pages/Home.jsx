@@ -4,6 +4,7 @@ import Smartalk from "../components/others/Smartalk";
 import Project from "../components/others/Project";
 import Skils from "../components/others/Skils";
 import About from "../components/others/About";
+import Contacts from "../components/others/Contacts";
 
 function Home() {
   const {t} = useTranslation();
@@ -14,6 +15,7 @@ function Home() {
        <Project/>
        <Skils/>
        <About/>
+       <Contacts/>
     </div>
   )
 }
